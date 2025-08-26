@@ -1,0 +1,51 @@
+# ────────────── Node (backend + frontend) ──────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+/front_end/node_modules/
+/back_end/node_modules/
+
+# ────────────── Build outputs ──────────────
+dist/
+build/
+.cache/
+.tmp/
+
+# ────────────── Environment variables ──────────────
+.env
+.env.local
+.env.*.local
+/front_end/.env
+/back_end/.env
+
+# ────────────── Logs ──────────────
+logs
+*.log
+logs/*.log
+
+# ────────────── Runtime data ──────────────
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ────────────── OS-specific ──────────────
+.DS_Store
+Thumbs.db
+
+# ────────────── Editor settings ──────────────
+.vscode/
+.idea/
+*.swp
+
+# ────────────── Optional: testing/coverage ──────────────
+coverage/
+*.lcov
+
+# ────────────── Optional: deployment files ──────────────
+.vercel/
+.netlify/
