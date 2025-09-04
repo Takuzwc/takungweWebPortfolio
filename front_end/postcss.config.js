@@ -1,6 +1,10 @@
 export default {
+  content: ["./index.html"],
+  theme: {
+    extend: {},
+  },
   plugins: {
-    tailwindcss: {},
+    "@tailwindcss/postcss": {},
     autoprefixer: {},
   },
 };
