@@ -11,18 +11,18 @@ export default function Home() {
         backgroundPosition: "center",
       }}
     >
-      <h1 className="hero_text text-5xl font-bold --color-white">
-        TAKUNDA <br />
-        <span className="hero_text_two">NGWENYA</span>
-      </h1>
-      <p className="occupation_text text-xl mt-2">Software Engineer</p>
-      <div className="hero_buttons mt-6 flex gap-4">
-        <button className=" px-6 py-2 bg-white text-black font-semibold rounded-2xl shadow">
-          Resume
-        </button>
-        <button className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-2xl shadow">
-          Portfolio
-        </button>
+      <div className="hero_display">
+        <h3 className="hero_text text-5xl font-bold --color-white">TAKUNDA</h3>
+        <h1 className="hero_text hero_text_two">NGWENYA</h1>
+        <p className="occupation_text text-xl mt-2">Software Engineer</p>
+        <div className="hero_buttons mt-6 flex gap-4">
+          <button className=" px-6 py-2 bg-white text-black font-semibold rounded-2xl shadow">
+            Resume
+          </button>
+          <button className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-2xl shadow">
+            Portfolio
+          </button>
+        </div>
       </div>
     </div>
   );

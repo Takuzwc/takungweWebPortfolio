@@ -1,15 +1,18 @@
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobile } from "@fortawesome/free-solid-svg-icons";
+import "/Users/Taku/Documents/git_Workspace/takungweWebPortfolio/front_end/src/components/comp_contents/comp_contents_css/main_navbar.css";
 
 export default function Nav_bar() {
   return (
-    <nav className="flex justify-between items-center px-8 py-4 bg-black bg-opacity-70">
-      <div className="flex gap-6">
+    <nav className="navbar flex justify-between items-center px-8 py-4 bg-black bg-opacity-70">
+      <div className="nav_links flex gap-6">
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? "text-blue-400" : "hover:text-blue-300"
+            `my-custom-class ${
+              isActive ? "text-blue-400" : "hover:text-blue-300"
+            }`
           }
         >
           Home
@@ -17,7 +20,9 @@ export default function Nav_bar() {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-blue-400" : "hover:text-blue-300"
+            `my-custom-class ${
+              isActive ? "text-blue-400" : "hover:text-blue-300"
+            }`
           }
         >
           About
@@ -25,7 +30,9 @@ export default function Nav_bar() {
         <NavLink
           to="/resume"
           className={({ isActive }) =>
-            isActive ? "text-blue-400" : "hover:text-blue-300"
+            `my-custom-class ${
+              isActive ? "text-blue-400" : "hover:text-blue-300"
+            }`
           }
         >
           Resume
@@ -33,7 +40,9 @@ export default function Nav_bar() {
         <NavLink
           to="/portfolio"
           className={({ isActive }) =>
-            isActive ? "text-blue-400" : "hover:text-blue-300"
+            `my-custom-class ${
+              isActive ? "text-blue-400" : "hover:text-blue-300"
+            }`
           }
         >
           Portfolio

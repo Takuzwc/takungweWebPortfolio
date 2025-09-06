@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import Nav_bar from "./components/nav_bar.jsx";
 import Main_component from "./components/comp_main.jsx";
-import Footer_bar from "/Users/Taku/Documents/git_Workspace/takungweWebPortfolio/front_end/src/components/nav_bar.jsx";
+import Footer_bar from "/Users/Taku/Documents/git_Workspace/takungweWebPortfolio/front_end/src/components/footer_bar.jsx";
 
 function App() {
   return (

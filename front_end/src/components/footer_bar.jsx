@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faGithub, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import "/Users/Taku/Documents/git_Workspace/takungweWebPortfolio/front_end/src/components/comp_contents/comp_contents_css/main_footer.css";
+import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer_bar() {
   return (
@@ -13,7 +15,7 @@ export default function Footer_bar() {
           target="_blank"
           aria-label="Connect on LinkedIn"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faLinkedin} className="fontAwesome_icons" />
         </a>
         <a
           href="https://wa.me"
@@ -21,7 +23,7 @@ export default function Footer_bar() {
           target="_blank"
           aria-label="Message on WhatsApp"
         >
-          <FontAwesomeIcon icon={faWhatsapp} />
+          <FontAwesomeIcon icon={faWhatsapp} className="fontAwesome_icons" />
         </a>
         <a
           href="https://github.com"
@@ -29,7 +31,7 @@ export default function Footer_bar() {
           target="_blank"
           aria-label="Follow on GitHub"
         >
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} className="fontAwesome_icons" />
         </a>
         <a
           href="https://discord.com"
@@ -37,14 +39,14 @@ export default function Footer_bar() {
           target="_blank"
           aria-label="Join our Discord"
         >
-          <FontAwesomeIcon icon={faDiscord} />
+          <FontAwesomeIcon icon={faDiscord} className="fontAwesome_icons" />
         </a>
       </div>
 
-      <p className="copyrights">
-        {/* <FontAwesomeIcon icon={faCopyright} /> */}
-        Takunda Harmish Ngwenya
-      </p>
+      <div className="copyrights text-sm">
+        {" "}
+        <FontAwesomeIcon icon={faCopyright} /> Takunda Harmish Ngwenya
+      </div>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+.about_main {
+  background-image: url("/Users/Taku/Documents/git_Workspace/takungweWebPortfolio/front_end/src/images/aboutwallpaper.png");
+  background-size: cover;
+  background-position: center;
+}
+.about_section {
+  width: 50%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+  margin-left: 120px;
+  color: #ffffff;
+}
